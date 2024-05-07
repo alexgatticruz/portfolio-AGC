@@ -1,0 +1,26 @@
+/* Estilos para el header */
+header {
+    background-color: #3f3f3f;
+}
+
+/* Estilos para elementos dentro de .container-fluid */
+.container-fluid .navbar-brand {
+    height: 60px;
+    background-color: #3f3f3f;
+}
+
+.container-fluid #navbarNav {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+.container-fluid #navbarNav .navbar-nav {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 40px;
+}
+
+.redes-sociales-iconos .red-social {
+    color: #ffffff;
+    text-decoration: none;
+}
