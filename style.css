@@ -7,15 +7,18 @@ header {
 .container-fluid .navbar-brand {
     height: 60px;
     background-color: #3f3f3f;
+    display: flex;
 }
 
-.container-fluid #navbarNav {
+.container-fluid #navbarNav  {
     background-color: #3f3f3f;
-    padding: 0px;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.container-fluid #navbarNav .navbar-nav {
+.container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-weight: 40px;
@@ -24,4 +27,25 @@ header {
 .redes-sociales-iconos .red-social {
     color: #ffffff;
     text-decoration: none;
+}
+
+.presentacion {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+}
+
+.subtitulo-presentacion {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
