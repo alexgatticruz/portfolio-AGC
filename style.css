@@ -1,32 +1,49 @@
 /* Estilos para el header */
-header {
+#header {
+    background-color: #3f3f3f;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* NAVBAR COMPLETE */
+.navbar-complete {
     background-color: #3f3f3f;
 }
 
 /* Estilos para elementos dentro de .container-fluid */
-.container-fluid .navbar-brand {
+#header .container-fluid .navbar-brand {
     height: 60px;
     background-color: #3f3f3f;
     display: flex;
+    padding: 5px;
 }
 
-.container-fluid #navbarNav  {
+#header .container-fluid #navbarNav  {
     background-color: #3f3f3f;
     color: #ffffff;
-    display: flex;
     justify-content: center;
     align-content: center;
+    display: flex;
 }
 
-.container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
+.nav-link {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-weight: 40px;
+
 }
 
-.redes-sociales-iconos .red-social {
+.redes-sociales-iconos {
+    text-decoration-color: #ffffff ;
+    text-decoration-line: none;
+
+}
+
+.red-social {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration-line: none;
+
 }
 
 .presentacion {
@@ -48,4 +65,9 @@ header {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
+}
+
+.retrato-portada {
+    display: flex;
+    width: 300px;
 }
